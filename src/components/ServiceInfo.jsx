@@ -239,10 +239,12 @@ const ServiceInfo = ({ data }) => {
 
         <Row className="cards pt-3">
           <InfoCard title={"مدت باقی مانده از اعتبار"} value={remainingTime} />
+          {/*
           <InfoCard
             title={"تعداد کاربر"}
             value={<FontAwesomeIcon size="lg" icon={faInfinity} />}
           />
+          */}
           <InfoCard title={"حجم مصرف شده"} value={formattedTraffic} ltr />
           <InfoCard title={"حجم باقی مانده"} value={remainingTraffic} ltr />
         </Row>
